@@ -9,11 +9,6 @@
     "target_path":  "kernel/oneplus/msm8974",
     "branch":       "m-caf"
   },
-  {
-    "repository":   "DirtyUnicorns/android_vendor_oneplus",
-    "target_path":  "vendor/oneplus",
-    "branch":       "m-caf"
-   },
    {
     "repository":   "DirtyUnicorns/android_vendor_qcom_opensource_dataservices",
     "target_path":  "vendor/qcom/opensource/dataservices",
