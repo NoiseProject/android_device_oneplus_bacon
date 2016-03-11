@@ -4,6 +4,7 @@
 
 # Bluetooth
 bluetooth.hfp.client=1
+ro.bluetooth.alwaysbleon=true
 
 # CABL
 ro.qualcomm.cabl=0
@@ -12,7 +13,7 @@ ro.qualcomm.cabl=0
 camera2.portability.force_api=1
 
 # Display
-ro.sf.lcd_density=480
+ro.sf.lcd_density=420
 persist.hwc.mdpcomp.enable=true
 ro.opengles.version=196608
 
@@ -77,3 +78,11 @@ persist.timed.enable=true
 # Wifi
 wifi.interface=wlan0
 wifi.supplicant_scan_interval=15
+
+# du updater
+ro.du.updater=bacon
+
+# USB
+sys.usb.config=mtp,adb
+persist.sys.usb.config=mtp,adb
+ro.adb.secure=0
